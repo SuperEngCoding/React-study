@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="app"></div>
+<script src="../js/react.development.js"></script>
+<script src="../js/react-dom.development.js"></script>
+<script src="../js/babel.min.js"></script>
+<script type="text/babel"> // type="text/babel" 是将告诫的高阶的js语法转换成低阶的浏览器能够识别的语法
+// 01 获取页面真实容器元素
+const containerDiv = document.getElementById("app");
+// 02 jsx语法创建虚拟Dom对象
+const vDom = <div> 你好 React 我来了！</div>;
+// 03 将虚拟Dom渲染到页面元素上去
+ReactDOM.render(vDom, containerDiv);
+</script>
+</body>
+</html>
