@@ -9,14 +9,31 @@
 <body>
 
 <!--js实现 -->
-<div id="js">
-
-</div>
+<div id="js"></div>
 
 <!--jsx实现 -->
-<div id="jsx">
+<div id="jsx"></div>
 
-</div>
+<script src="../../js/react.development.js"></script>
+<script src="../../js/react-dom.development.js"></script>
+<script src="../../js/babel.min.js"></script>
+
+<script>
+    // 1 创建变量
+    let myClass = 'class01';
+    let myContent = 'mh';
+    // 2 创建Dom
+    const vDom = React.createElement('span', {className: myClass}, myContent);
+    // 3 将Dom渲染到页面元素上
+    ReactDOM.render(vDom, document.getElementById("js"))
+</script>
+
+<script type="text/babel">
+    const containerDiv = document.getElementById("jsx");
+    const vDom2 = <span className="class02"> 你好 React 我来了！</span>;
+    ReactDOM.render(vDom2, containerDiv);
+
+</script>
 
 </body>
 </html>
