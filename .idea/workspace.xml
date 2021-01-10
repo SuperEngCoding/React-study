@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6eb93cb2-b7a8-4aab-963c-8b1ae109b093" name="Default Changelist" comment="## 标记语言">
+    <list default="true" id="6eb93cb2-b7a8-4aab-963c-8b1ae109b093" name="Default Changelist" comment="## 临时提交 晚上继续">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day-01/JSX/Demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/day-01/JSX/Demo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -38,16 +44,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/day-01/JSX/img" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/day-01/JSX/img" />
       <recent name="$PROJECT_DIR$/src/js" />
     </key>
   </component>
@@ -59,7 +67,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608956171878</updated>
-      <workItem from="1608956173093" duration="4201000" />
+      <workItem from="1608956173093" duration="4383000" />
+      <workItem from="1608991839171" duration="82000" />
+      <workItem from="1610196440669" duration="4269000" />
     </task>
     <task id="LOCAL-00001" summary="## 标记语言">
       <created>1608960406167</created>
@@ -68,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608960406167</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="## 临时提交 晚上继续">
+      <created>1608963790014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608963790014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,10 +101,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="## 标记语言" />
-    <option name="LAST_COMMIT_MESSAGE" value="## 标记语言" />
+    <MESSAGE value="## 临时提交 晚上继续" />
+    <option name="LAST_COMMIT_MESSAGE" value="## 临时提交 晚上继续" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

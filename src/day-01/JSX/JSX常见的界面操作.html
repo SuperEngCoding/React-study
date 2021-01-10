@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React 练习</title>
+</head>
+<body>
+<div id="app"></div>
+<script src="../../js/react.development.js"></script>
+<script src="../../js/react-dom.development.js"></script>
+<script src="../../js/babel.min.js"></script>
+
+<script type="text/html">
+    //多重标签嵌套
+    ReactDOM.render(
+    // 多个标签需要用div这个标签来包裹
+    <div>
+        <h2>多层标签嵌套</h2>
+        <img src="img/TCP:IP图解-协议族.jpg" alt="图示" width="500"/>
+        <p>第二个标签</p>
+    </div>
+    , document.getElementById("app"))
+</script>
+
+<script type="text/html">
+    // js 中的变量/表达式要写在{}内
+    const str = "变量"
+    ReactDOM.render(
+    // 多个标签需要用div这个标签来包裹
+    <div>
+        <span>{str}</span>
+        <p> 4+5 = {4+5}</p>
+    </div>
+    , document.getElementById("app"))
+</script>
+
+<script type="text/html">
+    // 内联样式通过对象方式引入  -- 样式需要定义在外部 通过{}的方式引入进来
+    // 定义样式
+    const myStyle = {
+    background:"purple",
+    color:"yellow",
+    fontSize:30
+    }
+    ReactDOM.render(
+    <div>
+        <p style={myStyle}>字体有样式</p>
+    </div>
+    , document.getElementById("app"))
+</script>
+
+<script type="text/babel">
+    // JSX 实现数组遍历
+    // 01 定义数组
+    const dataArr = [
+        {name: "jay", age: 30},
+        {name: "mark", age: 32},
+        {name: "kar", age: 33},
+    ];
+    // 创建虚拟Dom
+    const vDom = (
+        <ul>
+            {
+                dataArr.map((data, index) =>
+                    <li key={index}>{index + 1} -- 姓名:{data.name}, ---年龄:{data.age}</li>
+                )
+            }
+        </ul>
+    );
+    ReactDOM.render(
+        vDom
+        , document.getElementById("app"))
+
+</script>
+
+</body>
+</html>
