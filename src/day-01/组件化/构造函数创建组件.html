@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React 练习</title>
+</head>
+<body>
+<div id="app"></div>
+<script src="../../js/react.development.js"></script>
+<script src="../../js/react-dom.development.js"></script>
+<script src="../../js/babel.min.js"></script>
+
+<script type="text/html">
+    // 构造函数首字母必须大写
+    function Custom(){
+    return (
+    <div>
+        <p>构造函数创建组件</p>
+    </div>
+    )
+    }
+    ReactDOM.render(
+    <Custom/>
+    , document.getElementById("app")
+    );
+</script>
+
+
+<script type="text/html">
+    // 单组件传值
+    // 构造函数首字母必须大写 单组件
+    function Custom(props) {
+        return (
+            <div>
+                <p>构造函数创建组件 + {props.name} + {props.colleges}</p>
+            </div>
+        );
+    }
+    // 向组件中传递参数
+    ReactDOM.render(
+        <Custom name="mh" colleges={["H5 ", " Java", " Py"]}/>
+        , document.getElementById("app")
+    );
+</script>
+
+
+
+<script type="text/babel">
+    // 多组件传值
+    //定义多组件
+    function Name(props){
+        return <p> 我叫:{props.name}</p>
+
+    }
+    function Colleges(props){
+        return <p> 我有三个学科:{props.colleges}</p>
+
+    }
+    function Custom() {
+        return (
+            <div>
+                <Name name = "mh"/>
+                <Colleges colleges={["H5 ", " Java", " Py"]}/>
+            </div>
+        )
+    }
+
+    // 向组件中传递参数
+    ReactDOM.render(
+    <Custom/>
+    , document.getElementById("app")
+    );
+</script>
+
+
+</body>
+</html>
