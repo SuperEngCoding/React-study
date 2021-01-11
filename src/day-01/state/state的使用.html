@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React 练习</title>
+</head>
+<body>
+<div id="app"></div>
+<script src="../../js/react.development.js"></script>
+<script src="../../js/react-dom.development.js"></script>
+<script src="../../js/babel.min.js"></script>
+
+<script type="text/babel">
+    // 创建组件类
+    class Singer extends React.Component {
+        //类的构造方法
+        constructor(props) {
+            // 1 子组件向父组件传值
+            super(props);
+            // 2 初始化状态
+            this.state = {
+                name: '周杰伦',
+                gender: '男',
+                intro: '七里香'
+            }
+        }
+
+        render() {
+            const {name, gender, intro} = this.state;
+            return (
+                <div>
+                    <h3>我叫:{name},性别:{gender},代表作为:{intro}</h3>
+                </div>
+            )
+        }
+    }
+
+    // 渲染到DOM容器
+    ReactDOM.render(<Singer/>, document.getElementById("app"));
+</script>
+</body>
+</html>

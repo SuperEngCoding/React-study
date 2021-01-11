@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6eb93cb2-b7a8-4aab-963c-8b1ae109b093" name="Default Changelist" comment="## JSX常用的界面操作方式">
+    <list default="true" id="6eb93cb2-b7a8-4aab-963c-8b1ae109b093" name="Default Changelist" comment="## 创建组件的两种方式 class 和 function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1mB9ZOTRbNQKr6Y6OY5S03SQxBg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -69,7 +77,8 @@
       <updated>1608956171878</updated>
       <workItem from="1608956173093" duration="4383000" />
       <workItem from="1608991839171" duration="82000" />
-      <workItem from="1610196440669" duration="7940000" />
+      <workItem from="1610196440669" duration="9290000" />
+      <workItem from="1610355608148" duration="4026000" />
     </task>
     <task id="LOCAL-00001" summary="## 标记语言">
       <created>1608960406167</created>
@@ -92,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610285779516</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="## 创建组件的两种方式 class 和 function">
+      <created>1610290307511</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610290307511</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +130,8 @@
     <MESSAGE value="## 标记语言" />
     <MESSAGE value="## 临时提交 晚上继续" />
     <MESSAGE value="## JSX常用的界面操作方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="## JSX常用的界面操作方式" />
+    <MESSAGE value="## 创建组件的两种方式 class 和 function" />
+    <option name="LAST_COMMIT_MESSAGE" value="## 创建组件的两种方式 class 和 function" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
