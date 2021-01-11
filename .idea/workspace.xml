@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6eb93cb2-b7a8-4aab-963c-8b1ae109b093" name="Default Changelist" comment="## 创建组件的两种方式 class 和 function">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6eb93cb2-b7a8-4aab-963c-8b1ae109b093" name="Default Changelist" comment="## state 代码提交">
+      <change beforePath="$PROJECT_DIR$/src/day-01/JSX/img/TCP:IP图解-协议族.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <workItem from="1608956173093" duration="4383000" />
       <workItem from="1608991839171" duration="82000" />
       <workItem from="1610196440669" duration="9290000" />
-      <workItem from="1610355608148" duration="4026000" />
+      <workItem from="1610355608148" duration="4103000" />
     </task>
     <task id="LOCAL-00001" summary="## 标记语言">
       <created>1608960406167</created>
@@ -108,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610290307511</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="## state 代码提交">
+      <created>1610369958472</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610369958472</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +138,8 @@
     <MESSAGE value="## 临时提交 晚上继续" />
     <MESSAGE value="## JSX常用的界面操作方式" />
     <MESSAGE value="## 创建组件的两种方式 class 和 function" />
-    <option name="LAST_COMMIT_MESSAGE" value="## 创建组件的两种方式 class 和 function" />
+    <MESSAGE value="## state 代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="## state 代码提交" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
