@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eb93cb2-b7a8-4aab-963c-8b1ae109b093" name="Default Changelist" comment="## state 代码提交">
-      <change beforePath="$PROJECT_DIR$/src/day-01/JSX/img/TCP:IP图解-协议族.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day-01/state/state的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/day-01/state/state的使用.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +80,8 @@
       <workItem from="1608991839171" duration="82000" />
       <workItem from="1610196440669" duration="9290000" />
       <workItem from="1610355608148" duration="4103000" />
+      <workItem from="1610371461000" duration="1141000" />
+      <workItem from="1610542550577" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="## 标记语言">
       <created>1608960406167</created>

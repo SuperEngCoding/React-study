@@ -25,16 +25,24 @@
             }
         }
 
+        dealClick(){
+            this.setState({
+                name: '王菲',
+                gender: '女',
+                intro: '因为爱情'
+            })
+        }
+
         render() {
             const {name, gender, intro} = this.state;
             return (
                 <div>
                     <h3>我叫:{name},性别:{gender},代表作为:{intro}</h3>
+                    <button onClick={() =>this.dealClick()}>下一位</button>
                 </div>
             )
         }
     }
-
     // 渲染到DOM容器
     ReactDOM.render(<Singer/>, document.getElementById("app"));
 </script>
