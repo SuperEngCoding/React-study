@@ -9,6 +9,8 @@
 <script src="../../js/react.development.js"></script>
 <script src="../../js/react-dom.development.js"></script>
 <script src="../../js/babel.min.js"></script>
+<!--引入prop-types-->
+<script src="../../js/prop-types.js"></script>
 
 <script type="text/babel">
     //创建一个Dog的组件类
@@ -29,11 +31,19 @@
         }
 
         // 定义 props的属性默认值 不变的静态的
-        static defaultProps = {
-            //属性: 默认值
-            name: '小黄',
-            gender: '公'
-        }
+        // static defaultProps = {
+        //     //属性: 默认值
+        //     name: '小黄',
+        //     gender: '公'
+        // }
+
+        // 设置props属性的类型  只是规范 不是强约束 Warning的错误提示
+        static propTypes = {
+            // isRequired 必须传
+            name: PropTypes.string.isRequired,
+            gender: PropTypes.string
+        };
+
 
         render() {
             const {name, gender} = this.props
@@ -48,25 +58,29 @@
                             <li key={index}>{friend}</li>
                         ))}
                     </ul>
-                    <button onClick = {() =>this.addYear()}>长大一岁</button>
+                    <button onClick={() => this.addYear()}>长大一岁</button>
                 </div>
             )
         }
 
-        addYear(){
+        addYear() {
             // 添加狗友
             let tempArr = this.state.dogFriends;
             tempArr.push("狗友" + Math.floor(Math.random() * 100));
 
             // 更新状态
             this.setState({
-                age: this.state.age +1,
+                age: this.state.age + 1,
                 dogFriends: tempArr
             })
         }
     }
+
     // 渲染到DOM容器
-    ReactDOM.render(<Dog/>, document.getElementById("app"));
+    ReactDOM.render(
+        // 组件传值 不传就走默认值
+        <Dog name='小黄' gender='母'/>,
+        document.getElementById("app"));
 </script>
 </body>
 </html>
