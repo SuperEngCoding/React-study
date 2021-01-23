@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React 练习</title>
+</head>
+<body>
+<div id="app"></div>
+<script src="../../js/react.development.js"></script>
+<script src="../../js/react-dom.development.js"></script>
+<script src="../../js/babel.min.js"></script>
+
+<script type="text/babel">
+    //创建一个Dog的组件类
+    class Dog extends React.Component {
+
+        // 单组件中: 界面中需要改变的元素通过state进行定义，如果页面中不需要进行改变的我们直接可以通过props进行定义即可
+        // props 一般是多组件之间传值
+        // 类似构造方法
+        constructor(props) {
+            super(props);
+            // 狗的属性: 姓名 性别 年龄 狗友  （其中姓名 性别 是固定不变的  年龄和狗友是可变的）
+            //  初始化state
+            this.state = {
+                //属性: 默认值
+                age: 1, // 年龄
+                dogFriends: [] // 狗友
+            }
+        }
+
+        // 定义 props的属性默认值 不变的静态的
+        static defaultProps = {
+            //属性: 默认值
+            name: '小黄',
+            gender: '公'
+        }
+
+        render() {
+            const {name, gender} = this.props
+            const {age, dogFriends} = this.state
+            return (
+                <div>
+                    <p>狗名:{name}, 性别:{gender}</p>
+                    <p>我今年:{age}岁了</p>
+                    <p>我有很多的朋友:</p>
+                    <ul>
+                        {dogFriends.map((friend, index) => (
+                            <li key={index}>{friend}</li>
+                        ))}
+                    </ul>
+                    <button onClick = {() =>this.addYear()}>长大一岁</button>
+                </div>
+            )
+        }
+
+        addYear(){
+            // 添加狗友
+            let tempArr = this.state.dogFriends;
+            tempArr.push("狗友" + Math.floor(Math.random() * 100));
+
+            // 更新状态
+            this.setState({
+                age: this.state.age +1,
+                dogFriends: tempArr
+            })
+        }
+    }
+    // 渲染到DOM容器
+    ReactDOM.render(<Dog/>, document.getElementById("app"));
+</script>
+</body>
+</html>
