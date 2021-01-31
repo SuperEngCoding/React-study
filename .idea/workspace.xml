@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6eb93cb2-b7a8-4aab-963c-8b1ae109b093" name="Default Changelist" comment="## props 和 state的组合使用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/state/props和state混合使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/state/props和state混合使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/JSX/Demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/jsx/Demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/JSX/JSX常见的界面操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/jsx/JSX常见的界面操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/babel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/babel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react-dom.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/react-dom.development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/react.development.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +87,7 @@
       <workItem from="1610371461000" duration="1141000" />
       <workItem from="1610542550577" duration="516000" />
       <workItem from="1611391644516" duration="11891000" />
+      <workItem from="1612086095733" duration="1459000" />
     </task>
     <task id="LOCAL-00001" summary="## 标记语言">
       <created>1608960406167</created>

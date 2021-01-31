@@ -2585,7 +2585,7 @@ function createElementWithValidation(type, props, children) {
       typeString = 'array';
     } else if (type !== undefined && type.$$typeof === REACT_ELEMENT_TYPE) {
       typeString = '<' + (getComponentName(type.type) || 'Unknown') + ' />';
-      info = ' Did you accidentally export a JSX literal instead of a component?';
+      info = ' Did you accidentally export a jsx literal instead of a component?';
     } else {
       typeString = typeof type;
     }
